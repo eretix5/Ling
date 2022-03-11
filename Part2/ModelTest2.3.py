@@ -90,4 +90,4 @@ for word in persons_and_sights:
         synonyms = model.findSynonymsArray(word, 10)
         print('Синонимы для  "{}": {}'.format(word, synonyms))
 
-spark.stop()
+spark.stop() 
